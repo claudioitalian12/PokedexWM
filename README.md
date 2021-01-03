@@ -19,8 +19,8 @@
 ### External Library
   - [x] Kingfisher: for downloading and caching images.
   
-        - [x] Asynchronous image downloading and caching.
-        - [x] Loading image from either URLSession-based networking.
-        - [x] Cancelable downloading and auto-reusing previous downloaded content to improve performance.
-        - [x] Customizable placeholder while loading images.
+        - Asynchronous image downloading and caching.
+        - Loading image from either URLSession-based networking.
+        - Cancelable downloading and auto-reusing previous downloaded content to improve performance.
+        - Customizable placeholder while loading images.
         
