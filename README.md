@@ -1,6 +1,6 @@
 # Pokedex
 
-### 1. [x] Guidelines
+### 1. Guidelines
 
   - [x] Use Swift 5.3
   - [x] Use IOS 11 SDK as Target
@@ -8,7 +8,7 @@
   - [x] Support Iphone/Ipad
   - [x] Use MVVM pattern
   
-### 2. [x] Bonus Tasks
+### 2. Bonus Tasks
 
   - [x] Use max one external library
   - [x] App work even offline
