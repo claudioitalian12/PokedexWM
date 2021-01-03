@@ -15,3 +15,6 @@
   - [x] Write Unit Test
   
 # Other
+
+### External Library
+  - [x] Kingfisher: for downloading and caching images.
