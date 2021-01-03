@@ -14,3 +14,4 @@
   - [x] App work even offline
   - [x] Write Unit Test
   
+# Other
