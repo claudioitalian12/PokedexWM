@@ -1,0 +1,615 @@
+[
+    {
+        "name": "bulbasaur",
+        "id": 1,
+        "weight": 69,
+        "height": 7,
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "grass",
+                    "url": "https://pokeapi.co/api/v2/type/12/"
+                }
+            },
+            {
+                "slot": 2,
+                "type": {
+                    "name": "poison",
+                    "url": "https://pokeapi.co/api/v2/type/4/"
+                }
+            }
+        ],
+        "stats": [
+            {
+                "base_stat": 45,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 49,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 49,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 65,
+                "effort": 1,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 65,
+                "effort": 0,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 45,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "ivysaur",
+        "id": 2,
+        "weight": 130,
+        "height": 10,
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "grass",
+                    "url": "https://pokeapi.co/api/v2/type/12/"
+                }
+            },
+            {
+                "slot": 2,
+                "type": {
+                    "name": "poison",
+                    "url": "https://pokeapi.co/api/v2/type/4/"
+                }
+            }
+        ],
+        "stats": [
+            {
+                "base_stat": 60,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 62,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 63,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 1,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 1,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 60,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "venusaur",
+        "id": 3,
+        "weight": 100,
+        "height": 20,
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "grass",
+                    "url": "https://pokeapi.co/api/v2/type/12/"
+                }
+            },
+            {
+                "slot": 2,
+                "type": {
+                    "name": "poison",
+                    "url": "https://pokeapi.co/api/v2/type/4/"
+                }
+            }
+        ],
+        "stats": [
+            {
+                "base_stat": 80,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 82,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 83,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 100,
+                "effort": 2,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 100,
+                "effort": 1,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "charmander",
+        "id": 4,
+        "weight": 85,
+        "height": 6,
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "fire",
+                    "url": "https://pokeapi.co/api/v2/type/10/"
+                }
+            }
+        ],
+        "stats": [
+            {
+                "base_stat": 39,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 52,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 43,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 60,
+                "effort": 0,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 50,
+                "effort": 0,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 65,
+                "effort": 1,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "charmeleon",
+        "id": 5,
+        "weight": 190,
+        "height": 11,
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "fire",
+                    "url": "https://pokeapi.co/api/v2/type/10/"
+                }
+            }
+        ],
+        "stats": [
+            {
+                "base_stat": 58,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 64,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 58,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 1,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 65,
+                "effort": 0,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 1,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "charizard",
+        "id": 6,
+        "weight": 905,
+        "height": 17,
+        "stats": [
+            {
+                "base_stat": 78,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 84,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 78,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 109,
+                "effort": 3,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 85,
+                "effort": 0,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 100,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "fire",
+                    "url": "https://pokeapi.co/api/v2/type/10/"
+                }
+            },
+            {
+                "slot": 2,
+                "type": {
+                    "name": "flying",
+                    "url": "https://pokeapi.co/api/v2/type/3/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "squirtle",
+        "id": 7,
+        "weight": 90,
+        "height": 5,
+        "stats": [
+            {
+                "base_stat": 44,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 48,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 65,
+                "effort": 1,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 50,
+                "effort": 0,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 64,
+                "effort": 0,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 43,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "water",
+                    "url": "https://pokeapi.co/api/v2/type/11/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "wartortle",
+        "id": 8,
+        "weight": 225,
+        "height": 10,
+        "stats": [
+            {
+                "base_stat": 59,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 63,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 1,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 65,
+                "effort": 0,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 80,
+                "effort": 1,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 58,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "water",
+                    "url": "https://pokeapi.co/api/v2/type/11/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "blastoise",
+        "id": 9,
+        "weight": 855,
+        "height": 16,
+        "stats": [
+            {
+                "base_stat": 79,
+                "effort": 0,
+                "stat": {
+                    "name": "hp",
+                    "url": "https://pokeapi.co/api/v2/stat/1/"
+                }
+            },
+            {
+                "base_stat": 83,
+                "effort": 0,
+                "stat": {
+                    "name": "attack",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "base_stat": 100,
+                "effort": 0,
+                "stat": {
+                    "name": "defense",
+                    "url": "https://pokeapi.co/api/v2/stat/3/"
+                }
+            },
+            {
+                "base_stat": 85,
+                "effort": 0,
+                "stat": {
+                    "name": "special-attack",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "base_stat": 105,
+                "effort": 3,
+                "stat": {
+                    "name": "special-defense",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            },
+            {
+                "base_stat": 78,
+                "effort": 0,
+                "stat": {
+                    "name": "speed",
+                    "url": "https://pokeapi.co/api/v2/stat/6/"
+                }
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": {
+                    "name": "water",
+                    "url": "https://pokeapi.co/api/v2/type/11/"
+                }
+            }
+        ]
+    }
+]
