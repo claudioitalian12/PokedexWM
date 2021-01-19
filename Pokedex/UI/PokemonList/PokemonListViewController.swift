@@ -51,8 +51,8 @@ class PokemonListViewController: UIViewController {
             self.pokemonListViewModel.pokemonForRow(at: row)
         }
         
-        pokemonListView.didDisplayPokemonInSecondaryContext = { [unowned self] pokemons in
-            if UIDevice.current.userInterfaceIdiom == .pad, !isFirstPokemonLoad, let pokemon = pokemons.first {
+        pokemonListView.didDisplayPokemonInSecondaryContext = { [unowned self] pokemon in
+            if UIDevice.current.userInterfaceIdiom == .pad, !isFirstPokemonLoad {
                 isFirstPokemonLoad = true
                 showDetailController(pokemon: pokemon)
             }

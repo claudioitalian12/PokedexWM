@@ -75,11 +75,4 @@ class TypeView: UIView {
         self.label.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 5).isActive = true
         self.label.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -5).isActive = true
     }
-    
-    // MARK: LayoutSubviews
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        self.layout()
-    }
 }

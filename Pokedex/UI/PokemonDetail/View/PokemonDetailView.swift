@@ -216,11 +216,4 @@ class PokemonDetailView: UIView {
             self.statsStack.addArrangedSubview(statView)
         }
     }
-    
-    // MARK: LayoutSubviews
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        self.layout()
-    }
 }

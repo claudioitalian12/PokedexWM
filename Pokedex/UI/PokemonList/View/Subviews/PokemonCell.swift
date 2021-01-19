@@ -162,11 +162,4 @@ class PokemonCell: UITableViewCell {
         self.secondaryType.topAnchor.constraint(equalTo: self.nameLabel.bottomAnchor, constant: 5).isActive = true
         self.secondaryType.leftAnchor.constraint(equalTo: self.primaryType.rightAnchor, constant:  10).isActive = true
     }
-    
-    // MARK: LayoutSubviews
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        self.layout()
-    }
 }

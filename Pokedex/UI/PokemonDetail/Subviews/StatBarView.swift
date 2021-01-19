@@ -88,20 +88,13 @@ class StatBarView: UIView {
         self.pokeValue.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         self.pokeValue.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         self.pokeValue.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-        
-        animatableLayout()
     }
     
     private func animatableLayout() {
         guard let viewModel = self.viewModel else { return }
         self.pokeValue.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: viewModel.statValue).isActive = true
-        self.pokeValue.stretch()
-    }
-    
-    // MARK: LayoutSubviews
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        self.layout()
+        DispatchQueue.main.async { [unowned self] in
+            self.pokeValue.stretch()
+        }
     }
 }

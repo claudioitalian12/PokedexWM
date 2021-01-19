@@ -133,7 +133,7 @@ class PokemonListView: UIView {
     // MARK: Interactions
     var willDisplayCellAtRow: ((Int) -> ())?
     var didSelectPokemonAtRow: ((Int) -> ())?
-    var didDisplayPokemonInSecondaryContext: (([Pokemon]) -> Void)?
+    var didDisplayPokemonInSecondaryContext: ((Pokemon) -> Void)?
     
     // MARK: PokemonListView init
     init(viewModel: PokemonListViewModel) {
@@ -171,7 +171,8 @@ class PokemonListView: UIView {
         }
         
         self.viewModel.publishedPokemons.bind { [weak self] pokemon in
-            self?.didDisplayPokemonInSecondaryContext?(pokemon)
+            guard let firstPokemon = pokemon.first else { return }
+            self?.didDisplayPokemonInSecondaryContext?(firstPokemon)
             self?.tableView.reloadData()
         }
     }
@@ -189,13 +190,6 @@ class PokemonListView: UIView {
         self.tableView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         self.tableView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
         self.tableView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-    }
-    
-    // MARK: LayoutSubviews
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        self.layout()
     }
 }
 

@@ -86,11 +86,4 @@ class StatView: UIView {
         self.stack.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15).isActive = true
         self.stack.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15).isActive = true
     }
-    
-    // MARK: LayoutSubviews
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        self.layout()
-    }
 }
