@@ -2,6 +2,7 @@
 
 ### 1. Guidelines
 
+  - [x] Target IOS 11
   - [x] Use Swift 5.3
   - [x] Use IOS 11 SDK as Target
   - [x] No use Xib/Storyboard
